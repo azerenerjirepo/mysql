@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Main-Class: com.example.mysql.MysqlApplication
+Class-Path: spring-boot-starter-3.0.2.jar hibernate-core-6.1.6.Final.jar
+  HikariCP-5.0.1.jar txw2-4.0.1.jar spring-boot-starter-logging-3.0.2.ja
+ r hibernate-commons-annotations-6.0.2.Final.jar spring-boot-starter-dat
+ a-jpa-3.0.2.jar spring-boot-starter-json-3.0.2.jar jackson-datatype-jsr
+ 310-2.14.1.jar jakarta.persistence-api-3.1.0.jar spring-jcl-6.0.4.jar s
+ pring-core-6.0.4.jar log4j-api-2.19.0.jar micrometer-core-1.10.3.jar by
+ te-buddy-1.12.22.jar micrometer-observation-1.10.3.jar jackson-datatype
+ -jdk8-2.14.1.jar jakarta.xml.bind-api-4.0.0.jar spring-aop-6.0.4.jar sp
+ ring-boot-starter-jdbc-3.0.2.jar jaxb-core-4.0.1.jar spring-web-6.0.4.j
+ ar jackson-module-parameter-names-2.14.1.jar slf4j-api-2.0.6.jar spring
+ -beans-6.0.4.jar logback-core-1.4.5.jar micrometer-commons-1.10.3.jar l
+ ogback-classic-1.4.5.jar spring-expression-6.0.4.jar istack-commons-run
+ time-4.1.1.jar jakarta.activation-api-2.1.1.jar spring-boot-actuator-3.
+ 0.2.jar tomcat-embed-core-10.1.5.jar jandex-2.4.2.Final.jar classmate-1
+ .5.1.jar jakarta.transaction-api-2.0.1.jar spring-orm-6.0.4.jar spring-
+ boot-autoconfigure-3.0.2.jar lombok-1.18.24.jar HdrHistogram-2.1.12.jar
+  spring-tx-6.0.4.jar jackson-core-2.14.1.jar spring-boot-3.0.2.jar spri
+ ng-data-jpa-3.0.1.jar spring-boot-starter-actuator-3.0.2.jar jakarta.an
+ notation-api-2.1.1.jar LatencyUtils-2.0.3.jar spring-jdbc-6.0.4.jar mss
+ ql-jdbc-7.2.2.jre8.jar spring-aspects-6.0.4.jar spring-boot-starter-tom
+ cat-3.0.2.jar jackson-annotations-2.14.1.jar spring-boot-starter-web-3.
+ 0.2.jar snakeyaml-1.33.jar jul-to-slf4j-2.0.6.jar jboss-logging-3.5.0.F
+ inal.jar jaxb-runtime-4.0.1.jar angus-activation-1.0.0.jar spring-data-
+ commons-3.0.1.jar tomcat-embed-websocket-10.1.5.jar jackson-databind-2.
+ 14.1.jar spring-context-6.0.4.jar mysql-connector-j-8.0.32.jar spring-w
+ ebmvc-6.0.4.jar spring-boot-actuator-autoconfigure-3.0.2.jar log4j-to-s
+ lf4j-2.19.0.jar aspectjweaver-1.9.19.jar spring-boot-starter-aop-3.0.2.
+ jar tomcat-embed-el-10.1.5.jar antlr4-runtime-4.10.1.jar jakarta.inject
+ -api-2.0.0.jar
+
