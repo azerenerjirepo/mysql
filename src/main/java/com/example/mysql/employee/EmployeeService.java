@@ -17,7 +17,7 @@ public class EmployeeService {
 
 
     public List<Employee> getAllTestTablesWithLimit() {
-        return employeeRepo.findAll(PageRequest.of(0, 50, Sort.by("ID").descending())).getContent();
+        return employeeRepo.findAll();
     }
 
 }

@@ -11,13 +11,32 @@ import java.util.List;
 public class DmsDocumentService {
     private final DmsDocumentrRepo dmsDocumentrRepo;
 
+//    public DmsDocumentService(DmsDocumentrRepo dmsDocumentrRepo) {
+//        this.dmsDocumentrRepo = dmsDocumentrRepo;
+//    }
+
+
+//    public List<DmsDocuments> getAllTestTablesWithLimit() {
+//        return dmsDocumentrRepo.findAll(PageRequest.of(0, 200000, Sort.by("ID").descending())).getContent();
+//
+//    }
+
+
     public DmsDocumentService(DmsDocumentrRepo dmsDocumentrRepo) {
         this.dmsDocumentrRepo = dmsDocumentrRepo;
     }
 
+    public List<DmsDocuments> getAllTestTablesWithLimit(int from, int to, String order) {
 
-    public List<DmsDocuments> getAllTestTablesWithLimit() {
-        return dmsDocumentrRepo.findAll(PageRequest.of(0, 50, Sort.by("ID").descending())).getContent();
+        Sort sort = Sort.by("ID").ascending();
+        if ("desc".equals(order)) {
+            sort = Sort.by("ID").descending();
+        }
+        else  if ("asc".equals(order)) {
+            sort = Sort.by("ID").ascending();
+        }
+        return dmsDocumentrRepo.findAll(PageRequest.of(from, to, sort)).getContent();
+//        return dmsDocumentrRepo.findAll(PageRequest.of(from, to, Sort.by("ID").ascending())).getContent();
 
     }
 }
